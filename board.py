@@ -53,7 +53,7 @@ with tf.Session() as sess:
     
     
     # Change this to a location on your computer
-    summary_writer = tf.train.SummaryWriter('/LOCATION/ON/YOUR/COMPUTER/', graph_def=sess.graph_def)
+    summary_writer = tf.train.SummaryWriter('/eos/user/h/hamd/All_ML', graph_def=sess.graph_def)
 
     # Training cycle
     for iteration in range(training_iteration):
